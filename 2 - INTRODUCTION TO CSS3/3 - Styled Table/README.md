@@ -1,4 +1,4 @@
-
+# Styled Table: mini-project overview
 
 The objectives for this mini-project have been:
 
