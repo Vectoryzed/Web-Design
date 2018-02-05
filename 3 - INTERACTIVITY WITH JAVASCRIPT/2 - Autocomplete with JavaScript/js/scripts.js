@@ -1,5 +1,4 @@
 /* Assignment: Autocomplete with JavaScript
-http://codepen.io/highslater/pen/qbajaK*/
 
 
 function billingFunction() {
