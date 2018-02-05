@@ -1,4 +1,4 @@
-Projects from Web Design course by University of Michigan.
+Projects from Web Design specialization by University of Michigan.
 
 # Web Design specialization (by University of Michigan)
 
