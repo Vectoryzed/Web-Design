@@ -1,4 +1,4 @@
-# Simple styled website: mini-project overview
+# Simple Styled Website: mini-project overview
 
 The objectives of this mini-project have been:
 
