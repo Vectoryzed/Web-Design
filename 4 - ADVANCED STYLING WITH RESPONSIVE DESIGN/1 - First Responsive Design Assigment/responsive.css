@@ -1,0 +1,146 @@
+body {
+    margin: 1%;
+    padding: 1%;
+    background-color: rgba(0, 0, 255, .2);
+    font-size: 100%;
+    min-width: 500px;
+}
+
+header,
+footer {
+    background-color: #0066FF;
+    padding: 1%;
+    margin: 1%;
+}
+
+header h1 {
+    font-size: 3rem;
+    color: rgba(0, 0, 0, .7);
+    ;
+}
+
+section {
+    margin: 1%;
+    padding: 1%;
+}
+
+nav a {
+    display: block;
+    background-color: white;
+    border: 1px solid black;
+    text-align: center;
+    border-radius: 35px;
+    text-decoration: none;
+    padding: 2%;
+    margin: 1%;
+}
+
+h1 {
+    text-align: center;
+    color: rgba(255, 0, 0, .7);
+    ;
+}
+
+.myClass {
+    margin: 0em 1em;
+    padding: .75em;
+    border: 1px solid black;
+    border-radius: .25%;
+    /* Safari and Chrome */
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-count: 3;
+}
+
+ol {
+    list-style: upper-roman;
+    margin: 1em;
+}
+
+img {
+    display: none;
+}
+
+footer {
+    clear: both;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+
+/*
+Print view
+Go back to the mobile view and print the page. Don't worry if you don't actually have a printer, you can use "Print Preview" or "Print as pdf."
+If you are using CodePen some of the CodePen code will show up as well, don't worry about that. All we care about is that a few things are changed, namely:
+a. The h1 heading is set to 1em (instead of being big)
+b. The navigation links are not styled as much (you need to figure out which parts have changed)
+c. The images are gone
+*/
+
+@media print {
+    body,
+    section {
+        margin: 0px;
+        padding: 0px;
+    }
+    header h1 {
+        font-size: 1em;
+    }
+    nav a {
+        display: block;
+        background-color: none;
+        border: none;
+        text-align: center;
+        border-radius: none;
+        text-decoration: underline;
+        padding: 0;
+        margin: 0;
+    }
+    .myClass {
+        margin: 0em 1em;
+        padding: .75em;
+        border: 1px solid black;
+        border-radius: .25%;
+        /* Safari and Chrome */
+        -webkit-column-count: 1;
+        -moz-column-count: 1;
+        column-count: 1;
+    }
+}
+
+
+/*
+Create a new look for screen sizes that are greater than 900px.
+In particular the properties to change are:
+a. Images are visible
+b. Sections are next to each other
+c. Additional text in/after the h1 (See how now it says “I guess”??)
+Most of the style is straightforward, but I do have some tricky stuff here. The trickiest being the addition of the text "I guess...." after the h1 element. You will need to use the pseudo-element "after" and the property "content". (Again, since different browsers have different default styles and since you may have a different zoom to your screen, don't worry about other stylistic differences.)
+*/
+
+@media screen and (min-width: 900px) {
+    img {
+        display: inline-block;
+        padding-right: 2%;
+        margin-top: 10px;
+        max-width: 14%;
+    }
+    #left {
+        height: 240px;
+        float: left;
+        width: 30%;
+    }
+    #center {
+        width: 55%;
+    }
+    section {
+        display: inline;
+    }
+    footer,
+    header {
+        background-color: rgba(0, 0, 255, .0);
+    }
+    header h1:after {
+        content: "(I guess...)";
+    }
+}

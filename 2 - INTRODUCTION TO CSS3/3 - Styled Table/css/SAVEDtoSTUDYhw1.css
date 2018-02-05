@@ -1,0 +1,122 @@
+body
+{
+  padding: 1%;
+  margin:2%;
+}
+
+header
+{
+  background-color: #d3d3d3;
+  padding:3%;
+  background-image: url('../images/flywheel.jpg');
+}
+
+h1
+{
+  text-align: center;
+  color: #FFFFFF;
+}
+
+h2
+{
+  color: #FF0000;
+}
+
+section
+{
+  background-color: #FFFFFF;
+  position: absolute;
+}
+
+a
+{
+  text-decoration:underline;
+  background-color: #FF0000;
+}
+
+nav a
+{
+  background-color: rgba(255, 255, 255, 0.52);
+  display: inline-block;
+  margin:1.5%;
+  border-radius:15px;
+  text-decoration: none;
+  padding:1%;
+}
+
+.active
+{
+  background-color: rgba(255, 255, 255, 1);
+  color:#0000FF;
+  font-weight: bold;
+}
+
+.left
+{
+  display: inline-block;
+  width:20%;
+  background-color: green;
+}
+.right
+{
+  display:inline-block;
+  width:45%;
+  margin: 2%;
+}
+
+img
+{
+  display:block;
+  width:90%;
+  border: solid 3px black;
+  margin:15px auto;
+}
+
+table
+{
+  font-family: sans-serif;
+  font-style: oblique;
+  width: 80%;
+  margin: 10px auto;
+}
+
+th
+{
+    /* creidt:w3c */
+    background: red; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(red, yellow); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(red, yellow); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(red, yellow); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(red, yellow); /* Standard syntax */
+
+    border-width: 2px 2px 4px 2px;
+    border-style: solid;
+    border-top-left-radius: 10px;
+    border-top-right-radius:10px;
+
+    font-weight: bold;
+}
+
+tr
+{
+  color: rgba(0, 0, 0, 0.6);
+  text-align: center;
+}
+
+tr td:first-child
+{
+  text-align: left;
+}
+
+tr:hover
+{
+  color: rgba(0, 0, 0, 1);
+}
+
+td
+{
+  padding: 3%;
+  margin: 5%;
+  background-color: #BBD8BB;
+  border: 2px solid black;
+}

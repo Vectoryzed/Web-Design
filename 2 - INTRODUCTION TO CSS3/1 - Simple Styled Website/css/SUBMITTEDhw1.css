@@ -1,0 +1,56 @@
+/* Assignment: Your First Styled Site */
+/* hw1.css */
+
+header {
+    /* the header should have a new background color */
+    background: #3A97C7;
+}
+
+a {
+    /* links should have a new font color. */
+    color: #B14F05;
+    /* links should have a new background color. */
+    background: #F7EEBE;
+    /* links text should be centered. */
+    text-align: center;
+}
+
+img {
+    /* the images should not be on the page */
+    display: none;
+}
+
+h1 {
+    /* make sure the headings are displayed in all caps*/
+    text-transform: uppercase;
+    /* h1 elements should be centered */
+    text-align: center;
+    /* h1 elements should have a new font color. */
+    color: #EFAE61;
+    /* h1 elements should have a new background color. */
+    background: #44351D;
+}
+
+h2 {
+    /* make sure the headings are displayed in all caps*/
+    text-transform: uppercase;
+    /* h2 elements should have a new font color */
+    color: #3A97C7;
+}
+
+section {
+    /* sections should have a new background color */
+    background: #F3DEC5;
+}
+
+
+/*
+You will review each submission based on whether each objective/style is achieved or not, and at what level.  (For instance, did they put in background-color and if so, did they use hexadecimal or rgb.)
+Specifically, you will evaluate submissions by answering the following questions: 
+Is the header styled with a new background color?
+Is the h1 heading styled?
+Is the h2 heading styled?
+Is the section styled with a new background color?
+Are the links styled?
+Are the images gone? They shouldn’t be there. 
+*/

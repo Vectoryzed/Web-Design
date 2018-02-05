@@ -1,0 +1,19 @@
+body {
+  background-color: black;
+}
+
+ul.row {
+  padding: 0px;
+  margin: 0px;
+}
+
+.row li {
+  list-style: none;
+  padding: 0px 10px 0px 10px;
+  margin: 25px 0px 0px 0px;
+}
+
+img {
+  padding: 0px;
+  margin: 0px;
+}
