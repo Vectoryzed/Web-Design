@@ -17,8 +17,8 @@ function billingFunction() {
     if (checked) {
         /*
         Whenever the checkbox is checked, the code should automatically
-        copy the values from Shipping Name ( a ) and Shipping Zip ( b )into the
-        Billing Name and Billing Zip.
+        copy the values from Shipping Name ( sName ) and Shipping Zip ( sZip )into the
+        Billing Name ( bName ) and Billing Zip ( bZip ).
         */
         bName.value = sName.value;
         bZip.value = sZip.value;
@@ -33,5 +33,3 @@ function billingFunction() {
         bZip.value = null;
     }
 }
-
-
